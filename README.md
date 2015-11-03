@@ -54,7 +54,7 @@ To start editing and previewing your site type the following. Then point your br
     cd ~/www.mysite.com
     cactus serve
 
-Once you are ready to deploy your site to S3 you can run the following. You will need your [Amazon access keys][5].
+Cactus uses port 8000 by default, to specify a different port add -p or --port [port] option. Once you are ready to deploy your site to S3 you can run the following. You will need your [Amazon access keys][5].
 If you don't have one yet, [read how to get one here][6].
 
     cactus deploy
